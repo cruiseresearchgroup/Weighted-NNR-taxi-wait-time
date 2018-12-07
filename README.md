@@ -22,15 +22,13 @@ The repository is structured as follows:
 - `data/`: Dataset used for this paper. 
 
 ## Code
-This code calculates the Feature weighted k-nearest neighbors. The feature weights are given as input to our code which are then used for distance calculation. To know more about the process of feature weight computation, please read our paper https://ieeexplore.ieee.org/document/8542712
+This code calculates the Feature weighted k-nearest neighbors. The feature weights are given as input to our code which is then used for distance calculation. To know more about the process of feature weight computation, please read our paper https://ieeexplore.ieee.org/document/8542712
 
 ## Data
-Brief explanation of your datasets. 
+To prepare our taxi wait time dataset for JFK airport, we integrate three publicly available datasets which include NYC taxi trip data from TLC, weather data from Weather underground and JFK passenger wait times data from U.S customs and border protection. 
 
 ## Possible Applications
-
-## Additional Section
-Additional section. 
+The outcomes of this research have prospective application in airport ground transport management. The information of wait times in different places beyond airports can enable the taxi fleet managers in better planning and management of their fleet vehicles. 
 
 ## Citation
 If you use the resources (code and dataset) presented in this repository, please cite (using the following BibTeX entry):
