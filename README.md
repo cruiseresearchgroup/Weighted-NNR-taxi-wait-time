@@ -9,9 +9,8 @@ This repository contains resources developed within the following paper:
   Rahaman, M. S., Ren, Y., Hamilton, M., Salim, F. D. (2018). Wait Time Prediction for Airport Taxis using Weighted Nearest Neighbor Regression
   In IEEE Access (pp. PP). IEEE.
   
-You can find the [paper](link_to_your_github_pdf_resource_file.pdf) and [presentation](link_to_your_github_pdf_resource_file.pdf) in this repository. 
 
-Alternative link: https://ieeexplore.ieee.org/document/8542712
+Link to the paper: https://ieeexplore.ieee.org/document/8542712
 
 ## Contents of the repository
 This repository contains resources used and described in the paper.
@@ -19,14 +18,11 @@ This repository contains resources used and described in the paper.
 The repository is structured as follows:
 > **NOTE:** this should follow the folders you have in this repository 
 
-- `algorithms/`: Formal description of algorithm for entity normalization and sentence clustering.
-- `data/`: Dataset used for this paper. 
 - `code/`: Evaluation script.
-- `evaluation/`: Evaluation script.
-- `presentation/`: PDF of paper presentation in certain conference or venue.
+- `data/`: Dataset used for this paper. 
 
 ## Code
-Brief explanation about your code (where to start or how to run). 
+This code calculates the Feature weighted k-nearest neighbors. The feature weights are given as input to our code which are then used for distance calculation. To know more about the process of feature weight computation, please read our paper https://ieeexplore.ieee.org/document/8542712
 
 ## Data
 Brief explanation of your datasets. 
